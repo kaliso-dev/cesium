@@ -3112,6 +3112,14 @@ html {
     text-decoration: none;
   }
   
+  .contact-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+}
+
   @media screen and (max-width: 991px) {
     .section.cc-cta {
       padding-left: 0;
