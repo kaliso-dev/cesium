@@ -2551,6 +2551,7 @@ html {
     height: 620px;
     margin-bottom: 100px;
     display: flex;
+    border-radius: 15px;
   }
   
   .intro-header.cc-subpage {
