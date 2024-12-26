@@ -3097,7 +3097,7 @@ html {
   }
 
   .submit {
-    background-color: black;
+    background-color: black !important;
   }
 
   .submit:hover {
