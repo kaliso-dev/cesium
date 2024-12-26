@@ -3095,6 +3095,22 @@ html {
   .slide-2, .mask {
     width: 100px;
   }
+
+  .submit {
+    background-color: black;
+  }
+
+  .submit:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    transition: 0.25s;
+    
+  }
+
+  .button-contact {
+    text-decoration: none;
+  }
   
   @media screen and (max-width: 991px) {
     .section.cc-cta {
