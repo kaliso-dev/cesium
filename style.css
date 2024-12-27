@@ -3122,6 +3122,7 @@ html {
 
 .text-field {
   width: 100%;
+  border-radius: 15px;
 }
 
   @media screen and (max-width: 991px) {
