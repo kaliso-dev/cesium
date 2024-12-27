@@ -3154,7 +3154,25 @@ html {
   color: black !important;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.section {
+  margin-top: auto; /* Assure que le footer reste collé en bas */
+  text-align: center; /* Centrer les éléments dans le footer */
+  padding: 0px; /* Ajoutez du padding pour espacer les éléments */
+}
+
   @media screen and (max-width: 991px) {
+
+    
+
     .section.cc-cta {
       padding-left: 0;
       padding-right: 0;
