@@ -3172,12 +3172,18 @@ html {
 
 
 
-.container {
+.container-avis {
   max-width: 800px;
   width: 100%;
   text-align: center;
   padding: 0 20px;
   padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 
 }
 
