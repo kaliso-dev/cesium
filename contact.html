@@ -10232,23 +10232,27 @@
                     <h2 class="contact-heading">Nous contacter</h2>
                     <div class="paragraph-light">Une question ou un besoin ? Contactez-nous, nous serons ravis de vous aider.</div>
                 </div>
-                <div class="contact-form">
-                    <form method="POST" netlify name="contact">
-                        <input type="hidden" name="form-name" value="contact">
-                        <input type="hidden" name="bot-field">
                 
-                        <label for="Name">Nom</label>
-                        <input class="text-field" maxlength="256" name="name" placeholder="Entrez votre nom" type="text" id="Name" required>
+                    <div class="contact-form">
+                        <form method="POST" netlify name="contact">
+                            <input type="hidden" name="form-name" value="contact">
+                            <input type="hidden" name="bot-field">
+                    
+                            <label for="Name">Nom</label>
+                            <input class="text-field" maxlength="256" name="name" placeholder="Entrez votre nom" type="text" id="Name" required>
+                    
+                            <label for="Email">Adresse email</label>
+                            <input class="text-field" maxlength="256" name="email" placeholder="Entrez votre email" type="email" id="Email" required>
+                    
+                            <label for="Message">Message</label>
+                            <textarea id="Message" name="message" placeholder="Entrez un message..." maxlength="5000" class="text-field" required></textarea>
+                    
+                            <input type="submit" class="primary-button" value="VALIDER">
+                        </form>
+                    </div>
+                    
+
                 
-                        <label for="Email">Adresse email</label>
-                        <input class="text-field" maxlength="256" name="email" placeholder="Entrez votre email" type="email" id="Email" required>
-                
-                        <label for="Message">Message</label>
-                        <textarea id="Message" name="message" placeholder="Entrez un message..." maxlength="5000" class="text-field" required></textarea>
-                
-                        <input type="submit" class="primary-button" value="VALIDER">
-                    </form>
-                </div>
                 
                 
             </div>

@@ -3120,6 +3120,10 @@ html {
     line-height: 50px;
 }
 
+.text-field {
+  width: 100%;
+}
+
   @media screen and (max-width: 991px) {
     .section.cc-cta {
       padding-left: 0;
