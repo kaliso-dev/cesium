@@ -10234,9 +10234,6 @@
                 </div>
                 <div class="contact-form w-form">
                     <form method="POST" netlify name="contact">
-                        <input type="hidden" name="form-name" value="contact">
-                        <input type="hidden" name="bot-field"> <!-- Champ invisible pour Netlify -->
-                
                         <label for="Name">Nom</label>
                         <input class="text-field cc-contact-field w-input" maxlength="256" name="name" placeholder="Entrez votre nom" type="text" id="Name" required>
                 
@@ -10246,6 +10243,7 @@
                         <label for="Message">Message</label>
                         <textarea id="Message" name="message" placeholder="Entrez un message..." maxlength="5000" class="text-field cc-textarea cc-contact-field w-input" required></textarea>
                 
+                        <input type="hidden" name="form-name" value="contact"> <!-- Nécessaire pour Netlify -->
                         <input type="submit" class="primary-button w-button" value="VALIDER">
                     </form>
                 </div>
