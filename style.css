@@ -3098,6 +3098,8 @@ html {
 
   .submit {
     background-color: black !important;
+    color: white !important;
+    text-decoration: none;
   }
 
   .submit:hover {
@@ -3107,6 +3109,18 @@ html {
     transition: 0.25s;
     
   }
+
+  .ring-indigo-200 {
+    --tw-ring-color: none !important;
+  }
+
+
+  .text-indigo-600 {
+    color: black !important;
+  }
+
+  
+
 
   .button-contact {
     text-decoration: none;
@@ -3123,6 +3137,21 @@ html {
 .text-field {
   width: 100%;
   border-radius: 15px;
+}
+
+
+.card1 {
+  transition: transform 0.3s ease-in-out; /* Transition fluide pour l'effet de zoom */
+  border-radius: 20px !important;
+}
+
+.card1:hover {
+  transform: scale(1.1); /* Agrandit la carte à 110% de sa taille normale */
+}
+
+
+.service {
+  color: black !important;
 }
 
   @media screen and (max-width: 991px) {
