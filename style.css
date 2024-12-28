@@ -2447,7 +2447,7 @@ html {
   .navigation {
     background-color: #0000;
     align-items: center;
-    padding: 30px 50px;
+    padding: 15px 50px;
     display: flex;
   }
   
@@ -2487,10 +2487,10 @@ html {
   }
   
   .logo-image {
-    border-radius: 10px;
+    width: 100px;
     display: block;
   }
-  
+
   .navigation-items {
     flex: none;
     justify-content: center;
@@ -3241,9 +3241,20 @@ html {
   line-height: 1.5;
 }
 
+.logo-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
   @media screen and (max-width: 991px) {
 
-    
+    .logo-link {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
 
     .section.cc-cta {
       padding-left: 0;
