@@ -10227,54 +10227,54 @@ span.CodeMirror-selectedtext { background: none; }
 
 
 
-  <div class="section">
-    <div class="container">
-        <div class="w-layout-grid contact-form-grid">
-            <div id="w-node-_3f61509a-fac7-b0d5-3763-509be705858e-1f8f9bc5" class="contact-form-wrap">
-                <div class="contact-form-heading-wrap">
-                    <h2 class="contact-heading">Nous contacter</h2>
-                    <div class="paragraph-light">Une question ou un besoin ? Contactez-nous, nous serons ravis de vous aider.</div>
-                </div>
-                
-                <div class="contact-form">
-                    <form method="POST" netlify name="rachat-montre">
-                        <input type="hidden" name="form-name" value="rachat-montre">
-                        <input type="hidden" name="bot-field">
-                
-                        <label for="Name">Nom</label>
-                        <input class="text-field" maxlength="256" name="name" placeholder="Entrez votre nom" type="text" id="Name" required>
-                
-                        <label for="Prenom">Prénom</label>
-                        <input class="text-field" maxlength="256" name="prenom" placeholder="Entrez votre prénom" type="text" id="Prenom" required>
-                
-                        <label for="Email">Adresse email</label>
-                        <input class="text-field" maxlength="256" name="email" placeholder="Entrez votre email" type="email" id="Email" required>
-                
-                        <label for="Phone">Numéro de téléphone</label>
-                        <input class="text-field" maxlength="256" name="phone" placeholder="Entrez votre numéro de téléphone" type="tel" id="Phone" required>
-                
-                        <label for="MarqueModele">Marque/Modèle</label>
-                        <input class="text-field" maxlength="256" name="marque_modele" placeholder="Entrez la marque et le modèle de la montre" type="text" id="MarqueModele" required>
-                
-                        <label for="Details">Détails sur la montre</label>
-                        <textarea id="Details" name="details" placeholder="Entrez les détails sur la montre..." maxlength="5000" class="text-field" required></textarea>
-                
-                        <label for="Photos">Photos de la montre (minimum 3)</label>
-                        <input type="file" id="Photos" name="photos" accept="image/*" multiple required>
-                
-                        <label for="Fonctionnelle">
+  <div class="rachat-section">
+    <div class="rachat-container">
+        <div class="rachat-form-wrap">
+            <div class="rachat-heading-wrap">
+                <h2 class="rachat-heading">Rachat de montres</h2>
+                <p class="rachat-description">
+                    Vous souhaitez vendre votre montre ? Grâce à ce formulaire dédié, nous vous offrons la possibilité de transmettre toutes les informations nécessaires pour une évaluation rapide et professionnelle. Remplissez les champs ci-dessous et soumettez des photos de votre montre : notre horloger passionné vous contactera rapidement pour discuter des modalités de rachat.
+                </p>
+            </div>
+            <div class="rachat-form">
+                <form method="POST" netlify name="rachat-montre">
+                    <input type="hidden" name="form-name" value="rachat-montre">
+                    <input type="hidden" name="bot-field">
+                    
+                    <label for="Name">Nom</label>
+                    <input class="rachat-input" maxlength="256" name="name" placeholder="Entrez votre nom" type="text" id="Name" required>
+                    
+                    <label for="Prenom">Prénom</label>
+                    <input class="rachat-input" maxlength="256" name="prenom" placeholder="Entrez votre prénom" type="text" id="Prenom" required>
+                    
+                    <label for="Email">Adresse email</label>
+                    <input class="rachat-input" maxlength="256" name="email" placeholder="Entrez votre email" type="email" id="Email" required>
+                    
+                    <label for="Phone">Numéro de téléphone</label>
+                    <input class="rachat-input" maxlength="256" name="phone" placeholder="Entrez votre numéro de téléphone" type="tel" id="Phone" required>
+                    
+                    <label for="MarqueModele">Marque/Modèle</label>
+                    <input class="rachat-input" maxlength="256" name="marque_modele" placeholder="Entrez la marque et le modèle de la montre" type="text" id="MarqueModele" required>
+                    
+                    <label for="Details">Détails sur la montre</label>
+                    <textarea id="Details" name="details" placeholder="Entrez les détails sur la montre..." maxlength="5000" class="rachat-textarea" required></textarea>
+                    
+                    <label for="Photos">Photos de la montre (minimum 3)</label>
+                    <input type="file" id="Photos" name="photos" accept="image/*" multiple class="rachat-file-input" required>
+                    
+                    <div class="rachat-checkbox-group">
+                        <label>
                             <input type="checkbox" id="Fonctionnelle" name="fonctionnelle" value="Montre fonctionnelle">
                             Montre fonctionnelle
                         </label>
-                        <label for="NonFonctionnelle">
+                        <label>
                             <input type="checkbox" id="NonFonctionnelle" name="non_fonctionnelle" value="Montre non fonctionnelle">
                             Montre non fonctionnelle
                         </label>
-                
-                        <input type="submit" class="primary-button" value="VALIDER">
-                    </form>
-                </div>
-                
+                    </div>
+                    
+                    <input type="submit" class="rachat-submit-button" value="VALIDER">
+                </form>
             </div>
         </div>
     </div>
