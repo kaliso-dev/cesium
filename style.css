@@ -3495,6 +3495,12 @@ html {
       display: none;
     }
 
+
+    .kaliso {
+      width: 80px;
+      height: auto;
+    }
+
     /* Responsive design */
     @media (max-width: 600px) {
       .popup {
