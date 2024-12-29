@@ -10226,7 +10226,35 @@
     <div class="bg-white">
         <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 class="text-2xl font-bold tracking-tight text-gray-900">Trouvez la montre qui vous ressemble.</h2>
+          <!-- Popup -->
+          <div class="overlay" id="popupOverlay"></div>
+          <div class="popup" id="popup">
+            <div class="popup-header">
+              <button id="closePopup">&times;</button>
+            </div>
+            <div class="popup-content">
+              <img class="img-popup" style="border-radius: 15px;" src="./product/product 8/image9.jpeg" alt="Montre Rolex modèle Oyster">
+              <h3>Montre Rolex modèle Oyster</h3>
+              <p>Prix : 3200€</p>
+              <a href="product8.html" style=" margin-top: 10px; padding: 10px; border-radius: 15px; background-color: black; color: white; text-decoration: none;">Voir plus de détails</a>
+            </div>
+          </div>
           <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            
+            <div class="group relative">
+              <img src="./product/product 8/image9.jpeg" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="product8.html">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Montre Rolex modèle Oyster 
+                    </a>
+                  </h3>
+                </div>
+                <p class="text-sm font-medium text-gray-900">3200€</p>
+              </div>
+            </div>
             <div class="group relative">
               <img src="./product/product 1/image1.jpeg" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
               <div class="mt-4 flex justify-between">
@@ -10325,25 +10353,38 @@
                 <p class="text-sm font-medium text-gray-900">380€</p>
               </div>
             </div>
-            <div class="group relative">
-              <img src="./product/product 8/image9.jpeg" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
-              <div class="mt-4 flex justify-between">
-                <div>
-                  <h3 class="text-sm text-gray-700">
-                    <a href="product8.html">
-                      <span aria-hidden="true" class="absolute inset-0"></span>
-                      Montre Rolex modèle  Oyster ayant comme référence 3139 
-                    </a>
-                  </h3>
-                </div>
-                <p class="text-sm font-medium text-gray-900">3200€</p>
-              </div>
-            </div>
             <!-- More products... -->
           </div>
         </div>
       </div>
       
+
+
+
+      <script>
+        // Show the popup when the page loads
+        window.addEventListener('load', function () {
+          const popup = document.getElementById('popup');
+          const overlay = document.getElementById('popupOverlay');
+      
+          popup.style.display = 'block';
+          overlay.style.display = 'block';
+      
+          // Close the popup when the close button or overlay is clicked
+          document.getElementById('closePopup').addEventListener('click', function () {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+          });
+      
+          overlay.addEventListener('click', function () {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+          });
+        });
+      </script>
+      
+
+
 
 
 
